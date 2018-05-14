@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>Hancock High</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="achievements.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Achievements</a>
+    <a href="tornado-drill.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Tornado Drills</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-white">About</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="achievements.html" class="w3-bar-item w3-button w3-padding-large">Achievements</a>
+    <a href="tornado-drill.html" class="w3-bar-item w3-button w3-padding-large">Tornado Drills</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+<img src="hhs-logo.png">
+  <p class="w3-xlarge"></p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Purpose</h1>
+      <h5 class="w3-padding-32"></h5>
+
+      <p class="w3-text-grey">Hancock High School celebrates 52 years as an educational institution for the students living in Hancock County. With the changing global society and the diversified needs of our students, Hancock High School has expanded and enlarged programs and offerings to ensure that our students are “Learning Today, Leading Tomorrow.” Through a commitment to excellence by students, staff, parents, and conscientious community members such as you, Hancock High continues to rise to the challenge of “Learning Today, Leading Tomorrow.’ Our goal is to celebrate every student’s achievement and to build a bridge that will embrace our past and build our future through the Renaissance movement.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class=" w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>History</h1>
+
+      <p class="w3-text-grey">Hancock High began on Tuesday December 13, 1955 with the creation of the Hancock County School District and the consolidation of the following community school districts : Sellers, Dedeaux, Kiln, Leetown, Caesar, Catahoula, Flat Top, Aaron Academy, Gainesville, Logtown, Gulfview, and Clermont Harbor. Next, on Friday March 7, 1958, the Hancock Board of Education approved the bids for the construction of what would become Hancock North Central for a total of $375,953.84 to be completed for the 1958-1959 school year. Construction began and was completed at the end of the 1959 school year. As a symbolic gesture of the newly created school district, one district graduation was held on the Hancock North Central campus with 34 students present; it was the beginning of our long and historic journey. Classes began on August 28, 1959, marking the opening of the new 1st-12th grade state of the art campus. A rich tradition of excellence and pride grew as Hancock County and Hancock North Central continued to grow. In 1987, the Hancock County Board of Education had a vision of creating a more modern facility that would be more centrally located and that could meet the needs of the quickly growing county. Hancock High was born. Our current facility on Stennis Airport Drive was constructed and completed for the 1990-1991 school year at a cost of $9.2 million. Classes that August with an enrollment of 1000 students in grades 7th-12th being served and the first graduation was held in May of 1991 with 117 graduates participating. Hancock High has a continued to grow in prestige and population, becoming one of the top high schools in the state of Mississippi. Today, Hancock High has a student population of almost 1300 students in grades 9 through 12 and is the 14th largest high school in the state of Mississippi.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
